@@ -1,0 +1,198 @@
+ /*HOME PAGE*/ 
+body {
+    background-color: black;
+    padding-bottom: 100px ;
+}
+
+p{
+    padding-left: 30px;
+    font-family: 'Figtree';
+} 
+
+nav {
+    text-align: right;
+    font-family:'Figtree';
+    color: white;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(231, 117, 200);
+}
+
+
+
+/* Style for the image row */
+.image-row {
+    display: flex; /* Display images in a row */
+    justify-content: space-between; /* Space out images evenly */
+    gap: 20px; /* Add some space between the images */
+    flex-wrap: wrap; /* Allow the images to wrap to a new line if the container is too small */
+    margin-top: 50px;
+}
+
+/* Style for each image container */
+.image-container {
+    width: 100%; /* Take up full width in a row */
+    max-width: 300px; /* Limit width to avoid huge images */
+    text-align: center; /* Center text under the image */
+}
+
+/* Style for the image itself */
+.image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    object-fit: cover; /* Optionally, ensure the image covers the container without distortion */
+}
+
+/* Optional: Style for the paragraph under each image */
+.image-container p {
+    margin-top: 10px; /* Add some space between the image and the text */
+    font-size: 16px; /* Set the font size */
+}
+
+.briannarial {
+    color: white;
+    font-family: 'figtree';
+    padding-top: 20px;
+}
+
+
+.navH3 {
+    color: white;
+    font-family: 'figtree';
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+header{ 
+    font-family: 'Figtree';
+    color: white;
+    height: 550px;
+    background-image: url(https://mcusercontent.com/916b5692e890389a3707c94e7/images/9ba7d67d-4a95-9197-4c9e-43922004572f.jpg);
+    background-position: fit;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    h1 {font-family: 'Figtree';
+    font-size: 50px;
+    margin-top: 200px; 
+    line-height: 50px;
+    color: white;
+    }
+
+
+main{
+    line-height: 25px;
+    font-family: 'Figtree';
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+ 
+/*ABOUT PAGE*/
+.container {
+    display: flex; /* Use flexbox to position elements horizontally */
+    align-items: center; /* Vertically center the items in the container */
+  }
+  
+  .me {
+    margin-right: 25px; /* Optional: Adds space between the image and the text */
+  }
+  
+  .text {
+    max-width: 70%; /* Ensure the text doesn't stretch too wide */
+  }
+  
+
+
+/*bycarter*/
+.divbycarter {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.textbycarter {
+    margin-top: 3%;
+}
+
+
+
+
+
+
+ /*VIDEO*/
+ iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+ }
+
+ h2 {
+    padding-top:30px;
+ }
+ 
+
+ /* GLITCH ART*/ 
+ .im-comp-container {
+    position: relative;
+  display: block;
+   max-width: 100%;
+ }
+
+ img-comparison-slider {
+    divider-width: 5px;
+    divider-color: #c0c0c0;
+    default-handle-opacity: 0.3;
+    default-handle-width: 100%;
+ }
+ 
+ 
+ /* DESIGN TAB */
+ .makoever {
+    display: block;
+    float: center;
+    margin: auto;
+    text-align: center;
+ }
+    /*bycarter*/
+.divbycarter {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+
+        /*Jelly fish */
+
+.img-container {
+    
+    width: 700px;
+    max-width: 90%;
+    height: 350px;
+    margin:  auto;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+    
+}
+
+/* CODE TAB */
