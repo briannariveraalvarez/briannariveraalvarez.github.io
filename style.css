@@ -152,12 +152,6 @@ main{
    max-width: 100%;
  }
 
- img-comparison-slider {
-    divider-width: 5px;
-    divider-color: #c0c0c0;
-    default-handle-opacity: 0.3;
-    default-handle-width: 100%;
- }
  
  
  /* DESIGN TAB */
